@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 
 
-
+ app.get('/', function(req, res){res.redirect('/api/shoes')})
 //gets all the data/shoes information from the database
 //display this file as json data
 app.get('/api/shoes', function(req, res) {
