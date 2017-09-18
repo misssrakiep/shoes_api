@@ -8,7 +8,7 @@ mongoose.connect(mongoURL, {
     if (err) {
         console.log(err);
     } else {
-        console.log("This is where the magic happens");
+        console.log("This is where the awesome takes place");
     }
 });
 
@@ -22,6 +22,7 @@ var shoesCatalogueSchema = new  mongoose.Schema({
 });
 
 const shoes = mongoose.model('shoes' , shoesCatalogueSchema);
+
 
 
 module.exports = shoes;

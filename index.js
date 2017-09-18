@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 
 app = express();
 
-const models = require('./models/shoesSchemaModel');
+const shoe = require('./models/shoesSchemaModel');
 
 app.use(express.static('public'))
 
@@ -20,10 +20,12 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 
 
-//gets all the data from the database
+
+//gets all the data/shoes information from the database
+//display this file as json data
 app.get('/api/shoes', function(req, res) {
 
-    models.find({}, function(err, result) {
+    shoe.find({}, function(err, result) {
         if (err) {
             console.log(err);
         } else {
@@ -33,10 +35,11 @@ app.get('/api/shoes', function(req, res) {
 
 })
 
-//get the the shoe brand from the database
+//get the the shoe brand information from the database
+//display it as json data
 app.get('/api/shoes/brand/:brandname', function(req, res) {
 
-    models.find({
+    shoe.find({
         brand: req.params.brandname
     }, function(err, result) {
         if (err) {
@@ -44,48 +47,98 @@ app.get('/api/shoes/brand/:brandname', function(req, res) {
         } else if (result) {
             res.json(result)
         } else {
-          res.send('not found')
+            res.send('not found')
         }
     })
 
 })
 
 //get all the shoes sizes from the database
-app.get('/api/shoes/size/:size', function(req, res){
+//display it as json data
+app.get('/api/shoes/size/:size', function(req, res) {
 
-  models.find({
-    size: req.params.size
-  }, function(err, result){
-    if (err) {
-      console.log(err);
-    } else if (result) {
-      res.json(result)
-    } else {
-      res.send('not found')
-    }
-  })
+    shoe.find({
+        size: req.params.size
+    }, function(err, result) {
+        if (err) {
+            console.log(err);
+        } else if (result) {
+            res.json(result)
+        } else {
+            res.send('not found')
+        }
+    })
 })
 
 //get all the shoes size and brand from the database
-app.get('/api/shoes/brand/:brandname/size/:size', function(req,res){
-  models.findOne({
-    brand: req.params.brandname,
-    size: req.params.size
-  }, function(err ,result){
-    if (err){
-      console.log(err);
-    }else if (result) {
-      res.json(result);
-    } else {
-      res.send('not found')
-    }
-  })
+//display it as json data
+app.get('/api/shoes/brand/:brandname/size/:size', function(req, res) {
+    shoe.findOne({
+        brand: req.params.brandname,
+        size: req.params.size
+    }, function(err, result) {
+        if (err) {
+            console.log(err);
+        } else if (result) {
+            res.json(result);
+        } else {
+            res.send('not found')
+        }
+    })
+})
+
+// can create shoes in the database
+app.post('/api/shoes', function(req, res) {
+    var id = req.body.id
+    var color = req.body.color
+    var brand = req.body.brand
+    var price = req.body.price
+    var size = req.body.size
+    var in_stock = req.body.in_stock
+
+    shoe.create({
+        id: id,
+        color: color,
+        brand: brand,
+        price: price,
+        size: size,
+        in_stock: in_stock
+    }, function(err, result) {
+        if (err) {
+            console.log(err);
+        } else if (result) {
+            res.json(result)
+        }
+    })
 })
 
 
+// sold route can sell stock and decrement the data in the database
+app.post('/api/shoes/sold/:id', function(req, res, next) {
+
+    shoe.findById(
+        req.params.id,
+        function(err, result) {
+            if (err) {
+                console.log(err);
+            }
+            if (result) {
+                console.log(result);
+                result.in_stock--;
+                result.save(function(err, result) {
+                    if (err) {
+                        console.log(err);
+                    }
+                    if (result) {
+                        res.json(result)
+                    }
+                })
+            }
+        })
+})
 
 var port = process.env.PORT || 7070;
 
 app.listen(port, function() {
-    console.log("we are good to go at", port);
+    console.log("This is where the magic happens :", port);
 })
