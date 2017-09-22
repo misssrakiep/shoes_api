@@ -13,16 +13,16 @@
 
 ### What is needed or used
  ##### PostMan 
- go to [Postman.org](https://www.getpostman.com/)
+ go to [Postman.org](https://www.getpostman.com/) to download
  *   Postman is an interface for the Shoes_catalogue_API because the api 
      does not have a client side 
     
  ##### NodeJS
- go to [NodeJS.org](https://nodejs.org/en/)
+ go to [NodeJS.org](https://nodejs.org/en/) to downlaod
  *   nodeJS is run locally because it is used for JavaScript 
  
  ##### MongoDB
-  go to [Mongo.org](https://www.mongodb.com/)
+  go to [Mongo.org](https://www.mongodb.com/) to download
  *   MongoDB is the database where all information of shoes are stored
  
  
