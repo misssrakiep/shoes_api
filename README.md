@@ -13,13 +13,17 @@
 
 ### What is needed or used
  ##### PostMan 
- go to [postman.org](https://www.getpostman.com/)
+ go to [Postman.org](https://www.getpostman.com/)
  *   Postman is an interface for the Shoes_catalogue_API because the api 
      does not have a client side 
     
  ##### NodeJS
- go to [nodeJS.org](https://nodejs.org/en/)
+ go to [NodeJS.org](https://nodejs.org/en/)
  *   nodeJS is run locally because it is used for JavaScript 
+ 
+ ##### MongoDB
+ * MongoDB is the database where all information of shoes are stored
+ go to [Mongo.org](https://www.mongodb.com/)
  
  ### Installing Dependancies
  * npm install
