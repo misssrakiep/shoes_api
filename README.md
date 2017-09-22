@@ -22,8 +22,9 @@
  *   nodeJS is run locally because it is used for JavaScript 
  
  ##### MongoDB
- * MongoDB is the database where all information of shoes are stored
- go to [Mongo.org](https://www.mongodb.com/)
+  go to [Mongo.org](https://www.mongodb.com/)
+ *   MongoDB is the database where all information of shoes are stored
+ 
  
  ### Installing Dependancies
  * npm install
