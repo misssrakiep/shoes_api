@@ -1,4 +1,4 @@
-# shoes_api
+# Shoes API
 
 ### what it is used for
 
