@@ -13,14 +13,38 @@
 
 ### What is needed or used
  ##### PostMan 
+ go to [Postman.org](https://www.getpostman.com/) to download
  *   Postman is an interface for the Shoes_catalogue_API because the api 
      does not have a client side 
     
  ##### NodeJS
+ go to [NodeJS.org](https://nodejs.org/en/) to downlaod
  *   nodeJS is run locally because it is used for JavaScript 
+ 
+ ##### MongoDB
+  go to [Mongo.org](https://www.mongodb.com/) to download
+ *   MongoDB is the database where all information of shoes are stored
+ 
  
  ### Installing Dependancies
  * npm install
    * this command will install all neccessary dependancies declared in the package.Json file
  
- ### clone or fork
+ ### fork and cloning the Repository
+ * fork the repository to your github
+ * copy the repo url to your clipboard
+ * open your CLI(Command Line Interface) and navigate to your projects folder
+ * run this command :
+ ```
+ git clone https://github.com/shannonsn/shoes_api
+ ```
+ * now navigate to the cloned folder and run:
+ ```
+ npm install
+ ```
+ this will install all the dependencies required for the app to run
+ * run command:
+ ```
+ nodemon
+ ```
+ which will start the server and start the app on your browser
