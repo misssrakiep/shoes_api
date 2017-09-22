@@ -13,10 +13,12 @@
 
 ### What is needed or used
  ##### PostMan 
+ go to [postman.org](https://www.getpostman.com/)
  *   Postman is an interface for the Shoes_catalogue_API because the api 
      does not have a client side 
     
  ##### NodeJS
+ go to [nodeJS.org](https://nodejs.org/en/)
  *   nodeJS is run locally because it is used for JavaScript 
  
  ### Installing Dependancies
@@ -29,7 +31,7 @@
  * open your CLI(Command Line Interface) and navigate to your projects folder
  * run this command :
  ```
- git clone [paste url here]
+ git clone https://github.com/shannonsn/shoes_api
  ```
  * now navigate to the cloned folder and run:
  ```
