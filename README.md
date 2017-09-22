@@ -23,4 +23,21 @@
  * npm install
    * this command will install all neccessary dependancies declared in the package.Json file
  
- ### clone or fork
+ ### fork and cloning the Repository
+ * fork the repository to your github
+ * copy the repo url to your clipboard
+ * open your CLI(Command Line Interface) and navigate to your projects folder
+ * run this command :
+ ```
+ git clone [paste url here]
+ ```
+ * now navigate to the cloned folder and run:
+ ```
+ npm install
+ ```
+ this will install all the dependencies required for the app to run
+ * run command:
+ ```
+ nodemon
+ ```
+ which will start the server and start the app on your browser
