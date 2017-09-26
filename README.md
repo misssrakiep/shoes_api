@@ -1,6 +1,6 @@
 # Shoes API
 
-# Contents
+## Contents
 
 * What the app is used for
 * What the API allows you to do
@@ -42,13 +42,13 @@
  *   MongoDB is the database where all information of shoes are stored
 
  ##### Heroku
- go to[Heroku](https://www.heroku.com/) to Sign-up
+ go to [Heroku](https://www.heroku.com/) to Sign-up
 
- ###Nodemon
+ ### Nodemon
  go to [nodemon](https://nodemon.io/) for more detail and how to install
 
 ## Issues
-There are no "GET" route for creating and posting shoes to the database[mongo]
+There is no "GET" route for creating and posting shoes to the database[mongo]
 
  ### fork and cloning the Repository
  * fork the repository to your github
@@ -62,7 +62,7 @@ There are no "GET" route for creating and posting shoes to the database[mongo]
  ### Installing Dependancies
  run:
  ```
-* npm install
+ npm install
 ```
    * this command will install all neccessary dependancies declared in the package.Json file
 
