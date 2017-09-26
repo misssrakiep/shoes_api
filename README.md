@@ -4,7 +4,7 @@
 
 * What the app is used for
 * What the API allows you to do
-* What is needed to make the app run
+* Prerequisites
 * Dependancies
 * How to install
 * Heroku
