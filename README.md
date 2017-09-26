@@ -48,7 +48,7 @@
  go to [nodemon](https://nodemon.io/) for more detail and how to install
 
 ## Issues
-There is no "GET" route for creating and posting shoes to the database[mongo]
+There is no "GET" route for creating and posting shoes to the database[Mongo]
 
  ### fork and cloning the Repository
  * fork the repository to your github
@@ -64,9 +64,7 @@ There is no "GET" route for creating and posting shoes to the database[mongo]
  ```
  npm install
 ```
-   * this command will install all neccessary dependancies declared in the package.Json file
-
- this will install all the dependencies required for the app to run
+   * this command will install all neccessary dependancies declared in the package.json file for the app to run
  * run command:
  ```
  nodemon
