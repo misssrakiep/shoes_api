@@ -21,7 +21,7 @@
 
 
 ### What the API allows you to do
-  *  The shoe catalogue API allows retreving from the database [MONGO] of all shoes
+  *  The shoe catalogue API allows retrieving from the database [MONGO] of all shoes
   *  Allow new shoes to be added to the database
   *  Allows filtering of data like finding a specific size or brand or both size and brand
   *  The API allow up update of shoes that are already in the database
