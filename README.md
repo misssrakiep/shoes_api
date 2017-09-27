@@ -29,44 +29,53 @@
 
 ### Prerequisites
  ##### PostMan
- go to [Postman](https://www.getpostman.com/) to download
- *   Postman is an interface for the Shoes_catalogue_API because the api
-     does not have a client side interface yet
+ go to [Postman](https://www.getpostman.com/) to download(optional)
 
  ##### NodeJS
  go to [NodeJS](https://nodejs.org/en/) to downlaod
- *   nodeJS is run locally because it is used for JavaScript
 
  ##### MongoDB
   go to [Mongo](https://www.mongodb.com/) to download
- *   MongoDB is the database where all information of shoes are stored
 
- ##### Heroku
- go to [Heroku](https://www.heroku.com/) to Sign-up
-
- ### Nodemon
+ ##### Nodemon
  go to [nodemon](https://nodemon.io/) for more detail and how to install
+
+ #### Heroku
+ go to [Heroku](https://www.heroku.com/) (optional)
 
 ## Issues
 There is no "GET" route for creating and posting shoes to the database[Mongo]
+(Therefore Postman is used to to act as an Interface)
 
- ### fork and cloning the Repository
- * fork the repository to your github
- * copy the Repository url to your clipboard
- * open your CLI(Command Line Interface) and navigate to your projects folder
- * run this command :
- ```
- git clone https://github.com/shannonsn/shoes_api
- ```
- * now navigate to the cloned folder and run:
+ ### fork, cloning, or zip the Repository
+ * open your CLI(Command Line Interface) and navigate to the shoes_api folder
+
+ * now navigate to the cloned,zipped or forked folder and run:
  ### Installing Dependancies
  run:
  ```
  npm install
 ```
    * this command will install all neccessary dependancies declared in the package.json file for the app to run
+
+  Now in the same folder in the CLI
  * run command:
  ```
  nodemon
  ```
- which will start the server and start the app on your browser
+
+this should print out an awesome message like:
+```
+This is where the magic happens : 7070
+This is where the awesome takes place
+
+```
+ you can now navigate to your prefered browser and insert
+```
+ localhost: 7070
+```
+this will load a page with information from the API
+
+```
+[{"_id":"59bfae21f74ef21d3dd733c5","color":"blue","brand":"skyline","price":750,"size":4,"in_stock":2,"__v":0},{"_id":"59bfae48f74ef21d3dd733c6","color":"grey","brand":"origin","price":850,"size":3,"in_stock":4,"__v":0}]
+```
