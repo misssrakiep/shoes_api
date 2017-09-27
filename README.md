@@ -29,19 +29,19 @@
 
 ### Prerequisites
  ##### PostMan
- go to [Postman](https://www.getpostman.com/) to download(optional)
+* go to [Postman](https://www.getpostman.com/) to download(optional)
 
  ##### NodeJS
- go to [NodeJS](https://nodejs.org/en/) to downlaod
+* go to [NodeJS](https://nodejs.org/en/) to downlaod
 
  ##### MongoDB
-  go to [Mongo](https://www.mongodb.com/) to download
+* go to [Mongo](https://www.mongodb.com/) to download
 
  ##### Nodemon
- go to [nodemon](https://nodemon.io/) for more detail and how to install
+* go to [nodemon](https://nodemon.io/) for more detail and how to install
 
  #### Heroku
- go to [Heroku](https://www.heroku.com/) (optional)
+* go to [Heroku](https://www.heroku.com/) (optional)
 
 ## Issues
 There is no "GET" route for creating and posting shoes to the database[Mongo]
@@ -64,12 +64,12 @@ There is no "GET" route for creating and posting shoes to the database[Mongo]
  nodemon
  ```
 
-this should print out an awesome message like:
+This should print out an awesome message like:
 ```
 This is where the magic happens : 7070
 This is where the awesome takes place
 ```
- you can now navigate to your prefered browser and insert
+ You can now navigate to your prefered browser and run
 ```
  localhost: 7070
 ```
