@@ -2,14 +2,14 @@
 
 ## Content
 
-- What the app is used for
-- What the API allows you to do
-- Prerequisites
-- Dependancies
-- How to install
-- Heroku
-- Issues
-- How to run the API locally
+    - What the app is used for
+    - What the API allows you to do
+    - Prerequisites
+    - Dependancies
+    - How to install
+    - Heroku
+    - Issues
+    - How to run the API locally
 
 ### What it is used for
 
@@ -40,8 +40,8 @@
  ##### Nodemon
 * go to [nodemon](https://nodemon.io/) for more detail and how to install
 
- #### Heroku
-* go to [Heroku](https://www.heroku.com/) (optional)
+ ### Heroku
+* [Heroku](https://www.heroku.com/) (optional)
 
 ## Issues
 There is no "GET" route for creating and posting shoes to the database[Mongo]
