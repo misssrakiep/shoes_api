@@ -1,6 +1,6 @@
 # Shoes API
 
-## Contents
+## Content
 
 - What the app is used for
 - What the API allows you to do
