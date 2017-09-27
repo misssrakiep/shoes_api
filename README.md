@@ -2,14 +2,14 @@
 
 ## Content
 
- -What the app is used for
- -What the API allows you to do
- -Prerequisites
- -Dependancies
- -How to install
- -Heroku
- -Issues
- -How to run the API locally
+-  -What the app is used for
+-  -What the API allows you to do
+-  -Prerequisites
+-  -Dependancies
+-  -How to install
+-  -Heroku
+-  -Issues
+-  -How to run the API locally
 
 ### What it is used for
 
