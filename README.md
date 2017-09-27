@@ -2,14 +2,14 @@
 
 ## Content
 
-  - What the app is used for
-  - What the API allows you to do
-  - Prerequisites
-  - Dependancies
-  - How to install
-  - Heroku
-  - Issues
-  - How to run the API locally
+  1 What the app is used for
+  2 What the API allows you to do
+  3 Prerequisites
+  4 Dependancies
+  5 How to install
+  6 Heroku
+  7 Issues
+  8 How to run the API locally
 
 ### What it is used for
 
