@@ -27,7 +27,6 @@
      by decrementing the stock for a specific shoe when the shoe is sold
 
 ### Prerequisites
-* ##### PostMan
 
 * ##### NodeJS
 
@@ -35,6 +34,7 @@
 
 * ##### Nodemon
 
+* ##### PostMan(this is optional)
 
 ## Issues
 There is no "GET" route for creating and posting shoes to the database[Mongo]
