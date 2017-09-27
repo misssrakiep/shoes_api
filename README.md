@@ -2,14 +2,14 @@
 
 ## Content
 
-  1 What the app is used for
-  2 What the API allows you to do
-  3 Prerequisites
-  4 Dependancies
-  5 How to install
-  6 Heroku
-  7 Issues
-  8 How to run the API locally
+1 What the app is used for
+2 What the API allows you to do
+3 Prerequisites
+4 Dependancies
+5 How to install
+6 Heroku
+7 Issues
+8 How to run the API locally
 
 ### What it is used for
 
@@ -68,7 +68,6 @@ this should print out an awesome message like:
 ```
 This is where the magic happens : 7070
 This is where the awesome takes place
-
 ```
  you can now navigate to your prefered browser and insert
 ```
@@ -77,5 +76,5 @@ This is where the awesome takes place
 this will load a page with information from the API
 
 ```
-[{"_id":"59bfae21f74ef21d3dd733c5","color":"blue","brand":"skyline","price":750,"size":4,"in_stock":2,"__v":0},{"_id":"59bfae48f74ef21d3dd733c6","color":"grey","brand":"origin","price":850,"size":3,"in_stock":4,"__v":0}]
+[{"_id":"59bfae21f74ef21d3dd733c5","color":"blue","brand":"skyline","price":750,"size":4,"in_stock":2,"__v":0}]
 ```
