@@ -10,16 +10,7 @@
 6. Issues
 7. How to run the API locally
 
-### What it is used for
-
-  *  Shoe catalogue API is used for accessing the shoes data in a database[MONGO]
-  *  Finding shoes with a specific size
-  *  Filtering shoes with a specific brand
-  *  Filtering the shoe size and shoe brand
-  *  Decrementing the shoe stock when a shoe is sold
-
-
-### What the API allows you to do
+### API features
   *  The shoe catalogue API allows retrieving from the database [MONGO] of all shoes
   *  Allow new shoes to be added to the database
   *  Allows filtering of data like finding a specific size or brand or both size and brand
