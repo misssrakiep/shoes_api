@@ -33,9 +33,14 @@ There is no "GET" route for creating and posting shoes to the database[Mongo]
 
 ### Installation Guide
 
-Fork the repository.
+Fork the repository
 
 Clone the repository onto your machine.
+
+run:
+```
+git clone https://github.com/shannonsn/shoes_api.git
+```
 
 Navigate to the project root directory.
 
