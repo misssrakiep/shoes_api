@@ -40,10 +40,14 @@
 There is no "GET" route for creating and posting shoes to the database[Mongo]
 (Therefore Postman is used to to act as an Interface)
 
- ### fork, cloning, or zip the Repository
- * open your CLI(Command Line Interface) and navigate to the shoes_api folder
+### Installation Guide
 
- * now navigate to the cloned,zipped or forked folder and run:
+Fork the repository.
+
+Clone the repository onto your machine.
+
+Navigate to the project root directory.
+
  ### Installing Dependancies
  run:
  ```
